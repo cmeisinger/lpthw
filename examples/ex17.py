@@ -1,11 +1,11 @@
-#1/usr/bin/python
+#!/usr/bin/python
 
 from sys import argv
 from os.path import exists
 
 script, from_file, to_file = argv
 
-#we could do these two on oneline, how?
+#we could do these two on one line, how?
 in_file = open(from_file)
 indata = in_file.read()
 
@@ -16,4 +16,5 @@ print "Alright, all done."
 
 out_file.close()
 in_file.close()
+
 
